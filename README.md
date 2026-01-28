@@ -51,7 +51,19 @@ kb.connect(
 ```
 
 <br />
-<code>Out[2]: visual_stack_plot</code>
+<code>Out[2]: connect_card</code>
+
+<p align="left">
+  <a href="https://linkedin.com/in/karan-badlani" target="_blank">
+    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
+  </a>
+  <a href="https://github.com/Johnny001-DS" target="_blank">
+    <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
+  </a>
+</p>
+
+<br />
+<code>Out[3]: visual_stack_plot</code>
 
 <p align="left">
   <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
@@ -68,3 +80,14 @@ kb.connect(
 ```bash
 $ display_stats --user Johnny001-DS
 ```
+
+<br />
+<code>Out[4]: stats_dashboard</code>
+
+<p align="left">
+  <img src="https://github-readme-stats.vercel.app/api?username=Johnny001-DS&show_icons=true&theme=blue-green" alt="Stats" />
+  <br />
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Johnny001-DS&theme=react-dark-high-contrast&hide_border=true&area=true" alt="Activity" />
+  <br />
+  <img src="https://komarev.com/ghpvc/?username=Johnny001-DS&label=Profile%20views&color=0e75b6&style=flat" alt="Views" />
+</p>
