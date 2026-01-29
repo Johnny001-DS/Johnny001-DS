@@ -6,7 +6,7 @@
 ```python
 import karan_badlani as kb
 from data_science import MachineLearning, Analytics
-from locations import Boston_MA
+from locations import United_States
 
 # ------------------------------------------------------------------
 #  CLASS: DataScientist
@@ -18,7 +18,7 @@ from locations import Boston_MA
 class Karan(kb.DataScientist):
     def __init__(self):
         self.name = "Karan Badlani"
-        self.location = "Boston, MA 🇺🇸"
+        self.location = "United States 🇺🇸"
         self.stack = [
             "Python", "R", "SQL", "TensorFlow", "PyTorch",
             "AWS", "GCP", "Docker", "Git"
