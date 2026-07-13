@@ -39,51 +39,55 @@
       <rect x="18" y="18" width="414" height="34" rx="15" fill="#111827"/>
       <circle cx="40" cy="35" r="5" fill="#EF4444"/><circle cx="60" cy="35" r="5" fill="#F59E0B"/><circle cx="80" cy="35" r="5" fill="#10B981"/>
       <text x="108" y="40" class="mono" font-size="13" fill="#94A3B8">ascii_profile.py</text>
-      <text x="46" y="88" class="mono" xml:space="preserve" font-size="9.3" letter-spacing=".25" fill="url(#stroke)" filter="url(#glow)">
-        <tspan x="46" y="88.00"></tspan>
-        <tspan x="46" y="95.45">               =::::-</tspan>
-        <tspan x="46" y="102.90">             :::-++=:::</tspan>
-        <tspan x="46" y="110.35">            ::*#%%%%%=::</tspan>
-        <tspan x="46" y="117.80">           ::%%%#%%%%%+::</tspan>
-        <tspan x="46" y="125.25">          -:#%%%%#*=-=##-:</tspan>
-        <tspan x="46" y="132.70">          :-@%%#*-::::-%*:=</tspan>
-        <tspan x="46" y="140.15">          :+@%#*=::::::*#:-</tspan>
-        <tspan x="46" y="147.60">          :*@%##*+--=+=*%-:</tspan>
-        <tspan x="46" y="155.05">          :+@%**+*+:==:=#:=</tspan>
-        <tspan x="46" y="162.50">          -:%%++=+=:::::+:</tspan>
-        <tspan x="46" y="169.95">           ::%+::++::::::-</tspan>
-        <tspan x="46" y="177.40">            :**-+#*=-==::=</tspan>
-        <tspan x="46" y="184.85">            ::*+**=:::-::</tspan>
-        <tspan x="46" y="192.30">           -::+*+==-:::-:-</tspan>
-        <tspan x="46" y="199.75">          :-*#@##*=--==#%-:</tspan>
-        <tspan x="46" y="207.20">         :-@@@@%##*++-:%@@=:</tspan>
-        <tspan x="46" y="214.65">         ::%@%%%*=+=-::#%%%::</tspan>
-        <tspan x="46" y="222.10">          :+@@@%#=:::::#%@%*-::-</tspan>
-        <tspan x="46" y="229.55">        -:-#@@@%%#=:::-%%%%%%#+::</tspan>
-        <tspan x="46" y="237.00">       ::*@%%@@@%%%*=-#%%%%%%%%%=:</tspan>
-        <tspan x="46" y="244.45">     ::=%@%%%%%%@@@@%#%%%%%%%%#%%+:=</tspan>
-        <tspan x="46" y="251.90">    ::*@%%%%%%%%%%@@##%%#%%%%%##%%-:</tspan>
-        <tspan x="46" y="259.35">   :=%@%%%%%%%%%%%%@%#%%#%#%####%%*:</tspan>
-        <tspan x="46" y="266.80">  ::@@%%%%%%%%%%%%%%%%#%#%######%%%:-</tspan>
-        <tspan x="46" y="274.25">  :-@%%%%@%%%%%%%%%%%%%#%%%%#####%%-:</tspan>
-        <tspan x="46" y="281.70">  :#@%%%%%%%%%@%%%%%%%%#%%%%%#####%=:</tspan>
-        <tspan x="46" y="289.15"> ::@@%%%%%%%%%@#%%%%%%%#%%%%######%=:</tspan>
-        <tspan x="46" y="296.60"> :=@%%%%%%%%%@@#%%%%%%##%%%##%###%%+:</tspan>
-        <tspan x="46" y="304.05"> :*@##%%%@%%%@%#%%%%%%%#%#%%#####%%#:</tspan>
-        <tspan x="46" y="311.50">::@%##%%%%@@%@%#%%%%%%%#%#%%####%%%%-:</tspan>
-        <tspan x="46" y="318.95">:+@%%##%%%%@@@%%%%%%%%%#%%%%%%##%%%%*:</tspan>
-        <tspan x="46" y="326.40">:#@%%%%%%%%@@@%%%%%%%%%#%%%%%###@%%%%:=</tspan>
-        <tspan x="46" y="333.85">:%%##%%%%%%@@@%%%%%%%%%###%%###%@%%%%-:</tspan>
-        <tspan x="46" y="341.30">:@%#####%%@@@@@%%%%%%%%%%%%%%%#%@%%%%+:</tspan>
-        <tspan x="46" y="348.75">:%%##**#%%@@@@@%%%%%%%%%%%%%%###@@%%%*:</tspan>
-        <tspan x="46" y="356.20">:@@%###%%%@@@@@@%%%%%%%%%##**+##%@@%%#:-</tspan>
-        <tspan x="46" y="363.65">:@@%%%%%%@@@@@@@%%%%%%#*+++**+*#%@@%%%:-</tspan>
+      <text x="34" y="84" class="mono" xml:space="preserve" font-size="7.25" letter-spacing=".08" fill="url(#stroke)" filter="url(#glow)">
+        <tspan x="34" y="84.00"></tspan>
+        <tspan x="34" y="90.80"></tspan>
+        <tspan x="34" y="97.60">                     ::::::::</tspan>
+        <tspan x="34" y="104.40">                 :::::::rs:::::::</tspan>
+        <tspan x="34" y="111.20">                ::::2#@@@@@@@2::::</tspan>
+        <tspan x="34" y="118.00">              :::X@@@@BB&amp;@@@@@@2::::</tspan>
+        <tspan x="34" y="124.80">             :::S@@@&amp;&amp;@@@@@@@@@@@:::::</tspan>
+        <tspan x="34" y="131.60">            :::@@@@@@@@@@&amp;9A:ir2@@B2:::</tspan>
+        <tspan x="34" y="138.40">            ::h@@@&amp;@@@BHX::::::::9@@h::</tspan>
+        <tspan x="34" y="145.20">            ::@@@@@@#HA::::::::::i@BS:::</tspan>
+        <tspan x="34" y="152.00">           :::@@@@&amp;G3A::::::::::::9@BX::</tspan>
+        <tspan x="34" y="158.80">           ::2@@@@G#@&amp;S5X::::A5hh:h@@9::</tspan>
+        <tspan x="34" y="165.60">           :::@@@@H@SGHHSGs::MM:::X@@;::</tspan>
+        <tspan x="34" y="172.40">            ::@@@@GHS#hr#9::::r::::@@::</tspan>
+        <tspan x="34" y="179.20">            :::@@@32hr:X33:::::::::S3::</tspan>
+        <tspan x="34" y="186.00">             :::@@hX:::rhX::::::::::::</tspan>
+        <tspan x="34" y="192.80">              :::@GX:::299S23s:;A:::::</tspan>
+        <tspan x="34" y="199.60">               ::h@hr:&amp;@9hi:::sX9:::::</tspan>
+        <tspan x="34" y="206.40">               :::5#AMHr#r:::::::::::</tspan>
+        <tspan x="34" y="213.20">              :::::BhM5;rs::::::::::::</tspan>
+        <tspan x="34" y="220.00">            :::::sG@#S9Hs:::::::::##;:::</tspan>
+        <tspan x="34" y="226.80">           ::s@@@@@@@&amp;&amp;@BMr:r::3i;@@@@2:::</tspan>
+        <tspan x="34" y="233.60">          ::M@@@@@@@@9B#&amp;@#GGMX:::@@@@@@::</tspan>
+        <tspan x="34" y="240.40">          :::@@@@@@@@@H5XAh2;:::::@@&amp;@@@M::</tspan>
+        <tspan x="34" y="247.20">           :::@@@@@@@@#i;:::::::::S@&amp;@@@B:::::</tspan>
+        <tspan x="34" y="254.00">          ::::@@@@@@@@@G::::::::::@@&amp;@@@@@@H::::::</tspan>
+        <tspan x="34" y="260.80">        ::::X@@@@@@@@@@@@M:::::::G@@@@@&amp;@@@@@@9i:::</tspan>
+        <tspan x="34" y="267.60">      ::::G@@@@@@@@@@@@@@@@S::::S@@@@&amp;@@@@@@@@@@@2:::</tspan>
+        <tspan x="34" y="274.40">    ::::H@@@@@@@@@@@@@@@@@@@@@#G@@@@@@@@@@@@@@@B@@&amp;i::</tspan>
+        <tspan x="34" y="281.20">  ::::2@@@@@@@@@@@@@@@@@@@@@@@@&amp;@@@@@@@@@&amp;@@@@@B&amp;@@@H::</tspan>
+        <tspan x="34" y="288.00">::::2@@@@@@@@@@@@@@@@@@@@@@@@&amp;&amp;&amp;B@@&amp;&amp;@@&amp;@@&amp;@&amp;&amp;@BB@&amp;B@X::</tspan>
+        <tspan x="34" y="294.80">::H@@@@@@@@@@@@@@&amp;@@@@@@@@@@@@@&amp;9@@B&amp;@@&amp;@@@&amp;&amp;&amp;@BB@@B@&amp;::</tspan>
+        <tspan x="34" y="301.60">:@@@@@@@@@@@@@B@@&amp;@@@&amp;@@@@@@@@@&amp;B@@9&amp;@&amp;&amp;&amp;&amp;@&amp;BB@B9@@B@@:::</tspan>
+        <tspan x="34" y="308.40">M@@@@@@@@@@@@@B@@@@@@B@@@@@@@@@&amp;B@&amp;9@@@@@&amp;&amp;&amp;B9&amp;&amp;9&amp;@B@@G::</tspan>
+        <tspan x="34" y="315.20">G@@@@@@@@@@@@@B@@@@@@B@@@@&amp;@@@@@@&amp;B&amp;@@@@@@&amp;&amp;B9B&amp;9&amp;&amp;@@&amp;@::</tspan>
+        <tspan x="34" y="322.00">@@@@@@@@@@@@@@B@@@@@@B@@@@&amp;@@@@@@@B@@@@@@@@@&amp;BB&amp;9B&amp;B@@@::</tspan>
+        <tspan x="34" y="328.80">@@@@@@@@@@@@@@&amp;&amp;@@@@@9@@@@@@@@@@@@9@@@@@@@&amp;@&amp;BBB9BB&amp;@9@r::</tspan>
+        <tspan x="34" y="335.60">@@@@@@@@@@@@@@@&amp;@@@@&amp;9@@@@@&amp;@@@@@@&amp;&amp;@@@@&amp;&amp;B&amp;@@&amp;9#B&amp;@&amp;@@:::</tspan>
+        <tspan x="34" y="342.40">@@@@@@@@@@@@@@@&amp;@@@@BB@@@@@@@@@@@B9B@&amp;@@@&amp;&amp;&amp;@&amp;@&amp;#&amp;B@@@@5::</tspan>
+        <tspan x="34" y="349.20">@@BG@@@@@@@@@@@@@@@@&amp;B@@@@@@@@@@@&amp;&amp;@@B@@@&amp;&amp;B&amp;@B&amp;#9@@@@@&amp;::</tspan>
+        <tspan x="34" y="356.00">&amp;&amp;&amp;@@@@@@@@@@@@@@@@@&amp;B@@@@@@&amp;@@@@&amp;B@@BB@@@&amp;&amp;B&amp;&amp;@&amp;#@@@@9@X::</tspan>
+        <tspan x="34" y="362.80">@B&amp;BBB@@@@@@@@@@@@@@&amp;&amp;@@@@@@&amp;@@@@&amp;B@&amp;B&amp;@@@&amp;&amp;@&amp;BB&amp;B@@@&amp;&amp;&amp;9::</tspan>
       </text>
       <rect x="20" y="64" width="410" height="3" fill="#22D3EE" opacity=".18">
         <animate attributeName="y" values="64;360;64" dur="4.8s" repeatCount="indefinite"/>
       </rect>
-      <text x="46" y="390" class="mono" font-size="14" fill="#94A3B8">$ render --mode signal</text>
-      <rect x="226" y="377" width="9" height="20" fill="#22D3EE"><animate attributeName="opacity" values="1;0;1" dur=".9s" repeatCount="indefinite"/></rect>
+      <text x="46" y="396" class="mono" font-size="14" fill="#94A3B8">$ render --mode signal</text>
+      <rect x="226" y="383" width="9" height="20" fill="#22D3EE"><animate attributeName="opacity" values="1;0;1" dur=".9s" repeatCount="indefinite"/></rect>
     </g>
 
     <g transform="translate(558 88)">
@@ -95,7 +99,6 @@
       <text x="42" y="94" class="mono" font-size="17" fill="#22D3EE">$ whoami</text>
       <text x="42" y="135" class="sans" font-size="44" font-weight="800" fill="#F8FAFC">Karan Badlani</text>
       <text x="42" y="169" class="mono" font-size="20" fill="url(#stroke)">Data Scientist | ML Engineer | GenAI Builder</text>
-      <rect x="496" y="149" width="10" height="22" fill="#10B981"><animate attributeName="opacity" values="1;0;1" dur=".85s" repeatCount="indefinite"/></rect>
 
       <g class="mono" font-size="15" fill="#F8FAFC" opacity=".92">
         <text x="42" y="220"><tspan fill="#10B981">Location</tspan>      United States</text>
