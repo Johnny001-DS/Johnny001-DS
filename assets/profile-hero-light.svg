@@ -1,165 +1,123 @@
 <svg width="1180" height="610" viewBox="0 0 1180 610" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
-  <title id="title">Karan Badlani - Data Science, ML, and GenAI profile hero</title>
-  <desc id="desc">Animated light GitHub profile banner with terminal panels, data science focus, RAG systems, healthcare NLP, financial forecasting, and cloud ML architecture.</desc>
+  <title id="title">Karan Badlani - Data Science and GenAI terminal profile</title>
+  <desc id="desc">Terminal-style GitHub profile banner with ASCII portrait, GenAI, machine learning, healthcare NLP, and financial forecasting focus.</desc>
   <defs>
-    <linearGradient id="accent" x1="120" y1="70" x2="1040" y2="520" gradientUnits="userSpaceOnUse">
-      <stop offset="0%" stop-color="#2563EB">
-        <animate attributeName="stop-color" values="#2563EB;#06B6D4;#10B981;#2563EB" dur="9s" repeatCount="indefinite"/>
+    <linearGradient id="stroke" x1="80" y1="84" x2="1100" y2="520" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#2563EB">
+        <animate attributeName="stop-color" values="#2563EB;#0284C7;#059669;#2563EB" dur="8s" repeatCount="indefinite"/>
       </stop>
-      <stop offset="50%" stop-color="#06B6D4">
-        <animate attributeName="stop-color" values="#06B6D4;#10B981;#2563EB;#06B6D4" dur="9s" repeatCount="indefinite"/>
+      <stop offset=".55" stop-color="#0284C7">
+        <animate attributeName="stop-color" values="#0284C7;#059669;#2563EB;#0284C7" dur="8s" repeatCount="indefinite"/>
       </stop>
-      <stop offset="100%" stop-color="#10B981">
-        <animate attributeName="stop-color" values="#10B981;#2563EB;#06B6D4;#10B981" dur="9s" repeatCount="indefinite"/>
+      <stop offset="1" stop-color="#059669">
+        <animate attributeName="stop-color" values="#059669;#2563EB;#0284C7;#059669" dur="8s" repeatCount="indefinite"/>
       </stop>
     </linearGradient>
-    <radialGradient id="glowA" cx="20%" cy="10%" r="70%">
-      <stop offset="0%" stop-color="#06B6D4" stop-opacity=".28"/>
-      <stop offset="100%" stop-color="#06B6D4" stop-opacity="0"/>
-    </radialGradient>
-    <radialGradient id="glowB" cx="85%" cy="72%" r="62%">
-      <stop offset="0%" stop-color="#2563EB" stop-opacity=".22"/>
-      <stop offset="100%" stop-color="#2563EB" stop-opacity="0"/>
-    </radialGradient>
-    <filter id="softGlow" x="-40%" y="-40%" width="180%" height="180%">
-      <feGaussianBlur stdDeviation="5" result="blur"/>
-      <feColorMatrix in="blur" type="matrix" values="0 0 0 0 0.02 0 0 0 0 0.45 0 0 0 0 0.72 0 0 0 .42 0"/>
-      <feMerge>
-        <feMergeNode/>
-        <feMergeNode in="SourceGraphic"/>
-      </feMerge>
-    </filter>
-    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
-      <feDropShadow dx="0" dy="22" stdDeviation="24" flood-color="#64748B" flood-opacity=".22"/>
-    </filter>
-    <pattern id="noise" width="48" height="48" patternUnits="userSpaceOnUse">
-      <path d="M4 8h1M22 5h1M44 16h1M12 31h1M38 39h1M7 45h1M27 27h1" stroke="#0F172A" stroke-opacity=".06"/>
-    </pattern>
-    <clipPath id="rounded">
-      <rect width="1180" height="610" rx="34"/>
-    </clipPath>
+    <radialGradient id="haloA" cx="12%" cy="20%" r="60%"><stop stop-color="#BAE6FD" stop-opacity=".32"/><stop offset="1" stop-color="#BAE6FD" stop-opacity="0"/></radialGradient>
+    <radialGradient id="haloB" cx="84%" cy="80%" r="55%"><stop stop-color="#BFDBFE" stop-opacity=".28"/><stop offset="1" stop-color="#BFDBFE" stop-opacity="0"/></radialGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%"><feDropShadow dx="0" dy="26" stdDeviation="24" flood-color="#020617" flood-opacity=".18"/></filter>
+    <filter id="glow" x="-25%" y="-25%" width="150%" height="150%"><feGaussianBlur stdDeviation="2.8" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse"><path d="M32 0H0V32" stroke="#0F172A" stroke-opacity=".06"/></pattern>
+    <clipPath id="round"><rect width="1180" height="610" rx="30"/></clipPath>
     <style>
-      .mono { font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", monospace; }
-      .sans { font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
+      .mono { font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', monospace; }
+      .sans { font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; }
     </style>
   </defs>
-
-  <g clip-path="url(#rounded)">
-    <rect width="1180" height="610" fill="#FFFFFF"/>
-    <rect width="1180" height="610" fill="url(#glowA)"/>
-    <rect width="1180" height="610" fill="url(#glowB)"/>
-    <rect width="1180" height="610" fill="url(#noise)" opacity=".52"/>
-
-    <circle cx="102" cy="105" r="3" fill="#06B6D4" opacity=".55">
-      <animate attributeName="cy" values="105;92;105" dur="6s" repeatCount="indefinite"/>
-      <animate attributeName="opacity" values=".18;.7;.18" dur="6s" repeatCount="indefinite"/>
-    </circle>
-    <circle cx="1080" cy="176" r="2.5" fill="#10B981" opacity=".55">
-      <animate attributeName="cy" values="176;154;176" dur="7s" repeatCount="indefinite"/>
-      <animate attributeName="opacity" values=".22;.7;.22" dur="7s" repeatCount="indefinite"/>
-    </circle>
-    <circle cx="984" cy="502" r="3" fill="#2563EB" opacity=".48">
-      <animate attributeName="cx" values="984;1018;984" dur="8s" repeatCount="indefinite"/>
-      <animate attributeName="opacity" values=".2;.62;.2" dur="8s" repeatCount="indefinite"/>
-    </circle>
-
-    <rect x="22" y="22" width="1136" height="566" rx="28" fill="#F8FAFC" fill-opacity=".82" stroke="#0F172A" stroke-opacity=".08" filter="url(#shadow)"/>
-    <rect x="24" y="24" width="1132" height="562" rx="26" stroke="url(#accent)" stroke-opacity=".38">
-      <animate attributeName="stroke-opacity" values=".14;.48;.14" dur="5s" repeatCount="indefinite"/>
+  <g clip-path="url(#round)">
+    <rect width="1180" height="610" fill="#F8FAFC"/>
+    <rect width="1180" height="610" fill="url(#haloA)"/>
+    <rect width="1180" height="610" fill="url(#haloB)"/>
+    <rect width="1180" height="610" fill="url(#grid)"/>
+    <rect x="34" y="36" width="1112" height="538" rx="24" fill="#FFFFFF" fill-opacity=".86" stroke="url(#stroke)" stroke-width="1.2" filter="url(#shadow)">
+      <animate attributeName="stroke-opacity" values=".35;.9;.35" dur="4s" repeatCount="indefinite"/>
     </rect>
-    <path d="M56 84H420" stroke="url(#accent)" stroke-width="1" opacity=".34"/>
-    <path d="M482 84H1122" stroke="url(#accent)" stroke-width="1" opacity=".34"/>
+    <rect x="34" y="36" width="1112" height="56" rx="24" fill="url(#stroke)" opacity=".12"/>
 
-    <g transform="translate(60 72)">
-      <rect width="386" height="466" rx="24" fill="#FFFFFF" fill-opacity=".76" stroke="#0F172A" stroke-opacity=".1"/>
-      <rect x="18" y="18" width="350" height="430" rx="18" fill="#F8FAFC" stroke="#CBD5E1"/>
-      <rect x="18" y="18" width="350" height="32" rx="18" fill="#E2E8F0"/>
-      <circle cx="40" cy="34" r="5" fill="#EF4444"/>
-      <circle cx="58" cy="34" r="5" fill="#F59E0B"/>
-      <circle cx="76" cy="34" r="5" fill="#10B981"/>
-      <text x="100" y="39" class="mono" font-size="13" fill="#475569">portrait.kernel</text>
-
-      <g filter="url(#softGlow)">
-        <text x="44" y="92" class="mono" font-size="16" fill="url(#accent)" opacity="1">       .:-=+*#%%#*+=-:.
-        </text>
-        <text x="44" y="118" class="mono" font-size="16" fill="url(#accent)" opacity="1">    :=*%@@@@@@@@@@@@%*=:
-        </text>
-        <text x="44" y="144" class="mono" font-size="16" fill="url(#accent)" opacity="1">  :*@@@#=-:.    .:-=#@@@*:
-        </text>
-        <text x="44" y="170" class="mono" font-size="16" fill="url(#accent)" opacity="1"> =@@%-   DS / ML / AI   -%@@=
-        </text>
-        <text x="44" y="196" class="mono" font-size="16" fill="url(#accent)" opacity="1">#@@+   RAG systems        +@@#
-        </text>
-        <text x="44" y="222" class="mono" font-size="16" fill="url(#accent)" opacity="1">%@@:   forecasting        :@@%
-        </text>
-        <text x="44" y="248" class="mono" font-size="16" fill="url(#accent)" opacity="1">#@@+   healthcare NLP     +@@#
-        </text>
-        <text x="44" y="274" class="mono" font-size="16" fill="url(#accent)" opacity="1"> =@@%-   cloud ML ops    -%@@=
-        </text>
-        <text x="44" y="300" class="mono" font-size="16" fill="url(#accent)" opacity="1">  :*@@@#=-:.    .:-=#@@@*:
-        </text>
-        <text x="44" y="326" class="mono" font-size="16" fill="url(#accent)" opacity="1">    :=*%@@@@@@@@@@@@%*=:
-        </text>
-        <text x="44" y="352" class="mono" font-size="16" fill="url(#accent)" opacity="1">       .:-=+*#%%#*+=-:.
-        </text>
-      </g>
-
-      <rect x="20" y="58" width="346" height="4" fill="#06B6D4" opacity=".12">
-        <animate attributeName="y" values="58;424;58" dur="5.8s" repeatCount="indefinite"/>
+    <g transform="translate(76 88)">
+      <rect width="450" height="420" rx="18" fill="#F8FAFC" fill-opacity=".48" stroke="#CBD5E1"/>
+      <rect x="18" y="18" width="414" height="34" rx="15" fill="#F1F5F9"/>
+      <circle cx="40" cy="35" r="5" fill="#EF4444"/><circle cx="60" cy="35" r="5" fill="#F59E0B"/><circle cx="80" cy="35" r="5" fill="#10B981"/>
+      <text x="108" y="40" class="mono" font-size="13" fill="#475569">ascii_profile.py</text>
+      <text x="46" y="88" class="mono" xml:space="preserve" font-size="9.3" letter-spacing=".25" fill="url(#stroke)" filter="url(#glow)">
+        <tspan x="46" y="88.00"></tspan>
+        <tspan x="46" y="95.45">               =::::-</tspan>
+        <tspan x="46" y="102.90">             :::-++=:::</tspan>
+        <tspan x="46" y="110.35">            ::*#%%%%%=::</tspan>
+        <tspan x="46" y="117.80">           ::%%%#%%%%%+::</tspan>
+        <tspan x="46" y="125.25">          -:#%%%%#*=-=##-:</tspan>
+        <tspan x="46" y="132.70">          :-@%%#*-::::-%*:=</tspan>
+        <tspan x="46" y="140.15">          :+@%#*=::::::*#:-</tspan>
+        <tspan x="46" y="147.60">          :*@%##*+--=+=*%-:</tspan>
+        <tspan x="46" y="155.05">          :+@%**+*+:==:=#:=</tspan>
+        <tspan x="46" y="162.50">          -:%%++=+=:::::+:</tspan>
+        <tspan x="46" y="169.95">           ::%+::++::::::-</tspan>
+        <tspan x="46" y="177.40">            :**-+#*=-==::=</tspan>
+        <tspan x="46" y="184.85">            ::*+**=:::-::</tspan>
+        <tspan x="46" y="192.30">           -::+*+==-:::-:-</tspan>
+        <tspan x="46" y="199.75">          :-*#@##*=--==#%-:</tspan>
+        <tspan x="46" y="207.20">         :-@@@@%##*++-:%@@=:</tspan>
+        <tspan x="46" y="214.65">         ::%@%%%*=+=-::#%%%::</tspan>
+        <tspan x="46" y="222.10">          :+@@@%#=:::::#%@%*-::-</tspan>
+        <tspan x="46" y="229.55">        -:-#@@@%%#=:::-%%%%%%#+::</tspan>
+        <tspan x="46" y="237.00">       ::*@%%@@@%%%*=-#%%%%%%%%%=:</tspan>
+        <tspan x="46" y="244.45">     ::=%@%%%%%%@@@@%#%%%%%%%%#%%+:=</tspan>
+        <tspan x="46" y="251.90">    ::*@%%%%%%%%%%@@##%%#%%%%%##%%-:</tspan>
+        <tspan x="46" y="259.35">   :=%@%%%%%%%%%%%%@%#%%#%#%####%%*:</tspan>
+        <tspan x="46" y="266.80">  ::@@%%%%%%%%%%%%%%%%#%#%######%%%:-</tspan>
+        <tspan x="46" y="274.25">  :-@%%%%@%%%%%%%%%%%%%#%%%%#####%%-:</tspan>
+        <tspan x="46" y="281.70">  :#@%%%%%%%%%@%%%%%%%%#%%%%%#####%=:</tspan>
+        <tspan x="46" y="289.15"> ::@@%%%%%%%%%@#%%%%%%%#%%%%######%=:</tspan>
+        <tspan x="46" y="296.60"> :=@%%%%%%%%%@@#%%%%%%##%%%##%###%%+:</tspan>
+        <tspan x="46" y="304.05"> :*@##%%%@%%%@%#%%%%%%%#%#%%#####%%#:</tspan>
+        <tspan x="46" y="311.50">::@%##%%%%@@%@%#%%%%%%%#%#%%####%%%%-:</tspan>
+        <tspan x="46" y="318.95">:+@%%##%%%%@@@%%%%%%%%%#%%%%%%##%%%%*:</tspan>
+        <tspan x="46" y="326.40">:#@%%%%%%%%@@@%%%%%%%%%#%%%%%###@%%%%:=</tspan>
+        <tspan x="46" y="333.85">:%%##%%%%%%@@@%%%%%%%%%###%%###%@%%%%-:</tspan>
+        <tspan x="46" y="341.30">:@%#####%%@@@@@%%%%%%%%%%%%%%%#%@%%%%+:</tspan>
+        <tspan x="46" y="348.75">:%%##**#%%@@@@@%%%%%%%%%%%%%%###@@%%%*:</tspan>
+        <tspan x="46" y="356.20">:@@%###%%%@@@@@@%%%%%%%%%##**+##%@@%%#:-</tspan>
+        <tspan x="46" y="363.65">:@@%%%%%%@@@@@@@%%%%%%#*+++**+*#%@@%%%:-</tspan>
+      </text>
+      <rect x="20" y="64" width="410" height="3" fill="#0284C7" opacity=".18">
+        <animate attributeName="y" values="64;360;64" dur="4.8s" repeatCount="indefinite"/>
       </rect>
-      <text x="44" y="406" class="mono" font-size="13" fill="#475569">$ python profile.py</text>
-      <rect x="220" y="394" width="9" height="18" fill="#06B6D4">
-        <animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite"/>
-      </rect>
+      <text x="46" y="390" class="mono" font-size="14" fill="#475569">$ render --mode signal</text>
+      <rect x="226" y="377" width="9" height="20" fill="#0284C7"><animate attributeName="opacity" values="1;0;1" dur=".9s" repeatCount="indefinite"/></rect>
     </g>
 
-    <g transform="translate(486 72)">
-      <rect width="634" height="466" rx="24" fill="#FFFFFF" fill-opacity=".76" stroke="#0F172A" stroke-opacity=".1"/>
-      <rect x="22" y="22" width="590" height="422" rx="18" fill="#F8FAFC" stroke="#CBD5E1"/>
-      <rect x="22" y="22" width="590" height="38" rx="18" fill="#E2E8F0"/>
-      <circle cx="48" cy="41" r="5" fill="#EF4444"/>
-      <circle cx="68" cy="41" r="5" fill="#F59E0B"/>
-      <circle cx="88" cy="41" r="5" fill="#10B981"/>
-      <text x="116" y="46" class="mono" font-size="13" fill="#475569">karan@github:~/portfolio</text>
+    <g transform="translate(558 88)">
+      <rect width="546" height="420" rx="18" fill="#FFFFFF" fill-opacity=".72" stroke="#CBD5E1"/>
+      <rect x="18" y="18" width="510" height="34" rx="15" fill="#F1F5F9"/>
+      <circle cx="40" cy="35" r="5" fill="#EF4444"/><circle cx="60" cy="35" r="5" fill="#F59E0B"/><circle cx="80" cy="35" r="5" fill="#10B981"/>
+      <text x="108" y="40" class="mono" font-size="13" fill="#475569">karan@github:~/readme</text>
 
-      <text x="48" y="100" class="mono" font-size="18" fill="#0284C7">$ whoami</text>
-      <text x="48" y="140" class="sans" font-size="42" font-weight="800" fill="#0F172A">Karan Badlani</text>
-      <text x="48" y="174" class="mono" font-size="20" fill="url(#accent)">Data Scientist | ML Engineer | GenAI Builder</text>
-      <rect x="1030" y="156" width="11" height="24" fill="#10B981">
-        <animate attributeName="opacity" values="1;0;1" dur=".85s" repeatCount="indefinite"/>
-      </rect>
+      <text x="42" y="94" class="mono" font-size="17" fill="#0284C7">$ whoami</text>
+      <text x="42" y="135" class="sans" font-size="44" font-weight="800" fill="#0F172A">Karan Badlani</text>
+      <text x="42" y="169" class="mono" font-size="20" fill="url(#stroke)">Data Scientist | ML Engineer | GenAI Builder</text>
+      <rect x="496" y="149" width="10" height="22" fill="#059669"><animate attributeName="opacity" values="1;0;1" dur=".85s" repeatCount="indefinite"/></rect>
 
-      <g class="mono" font-size="15" fill="#334155">
-        <text x="48" y="220" opacity="1">location: United States
-        </text>
-        <text x="48" y="250" opacity="1">focus: RAG agents, healthcare NLP, financial forecasting
-        </text>
-        <text x="48" y="280" opacity="1">building: production-grade AI apps with measurable retrieval quality
-        </text>
-        <text x="48" y="310" opacity="1">email: karanbadlani001@gmail.com
-        </text>
+      <g class="mono" font-size="15" fill="#0F172A" opacity=".92">
+        <text x="42" y="220"><tspan fill="#059669">Location</tspan>      United States</text>
+        <text x="42" y="250"><tspan fill="#059669">Focus</tspan>        RAG agents, healthcare NLP, forecasting</text>
+        <text x="42" y="280"><tspan fill="#059669">Building</tspan>     evaluated AI apps + cloud ML systems</text>
+        <text x="42" y="310"><tspan fill="#059669">Contact</tspan>      karanbadlani001@gmail.com</text>
       </g>
 
-      <g class="mono" font-size="14">
-        <rect x="48" y="344" width="82" height="30" rx="15" fill="#FFFFFF" stroke="#06B6D4" stroke-opacity=".46"/>
-        <text x="66" y="364" fill="#075985">Python</text>
-        <rect x="142" y="344" width="56" height="30" rx="15" fill="#FFFFFF" stroke="#10B981" stroke-opacity=".46"/>
-        <text x="161" y="364" fill="#047857">SQL</text>
-        <rect x="210" y="344" width="66" height="30" rx="15" fill="#FFFFFF" stroke="#2563EB" stroke-opacity=".46"/>
-        <text x="229" y="364" fill="#1D4ED8">AWS</text>
-        <rect x="288" y="344" width="78" height="30" rx="15" fill="#FFFFFF" stroke="#06B6D4" stroke-opacity=".46"/>
-        <text x="307" y="364" fill="#075985">RAG</text>
-        <rect x="378" y="344" width="88" height="30" rx="15" fill="#FFFFFF" stroke="#10B981" stroke-opacity=".46"/>
-        <text x="397" y="364" fill="#047857">Qdrant</text>
-        <rect x="478" y="344" width="94" height="30" rx="15" fill="#FFFFFF" stroke="#2563EB" stroke-opacity=".46"/>
-        <text x="497" y="364" fill="#1D4ED8">PyTorch</text>
+      <g class="mono" font-size="13" font-weight="700">
+        <rect x="42" y="344" width="70" height="28" rx="8" fill="#0284C7" opacity=".14" stroke="#0284C7"/><text x="58" y="363" fill="#0F172A">Python</text>
+        <rect x="122" y="344" width="50" height="28" rx="8" fill="#059669" opacity=".14" stroke="#059669"/><text x="137" y="363" fill="#0F172A">SQL</text>
+        <rect x="182" y="344" width="58" height="28" rx="8" fill="#2563EB" opacity=".14" stroke="#2563EB"/><text x="198" y="363" fill="#0F172A">AWS</text>
+        <rect x="250" y="344" width="54" height="28" rx="8" fill="#0284C7" opacity=".14" stroke="#0284C7"/><text x="266" y="363" fill="#0F172A">RAG</text>
+        <rect x="314" y="344" width="74" height="28" rx="8" fill="#059669" opacity=".14" stroke="#059669"/><text x="329" y="363" fill="#0F172A">Qdrant</text>
+        <rect x="398" y="344" width="82" height="28" rx="8" fill="#2563EB" opacity=".14" stroke="#2563EB"/><text x="413" y="363" fill="#0F172A">PyTorch</text>
       </g>
 
-      <text x="48" y="414" class="mono" font-size="14" fill="#475569">selected_work = ["Healthcare RAG", "Production RAG", "Forecasting"]</text>
+      <text x="42" y="396" class="mono" font-size="13" fill="#475569">portfolio = [Healthcare RAG, Production RAG, Patient Archetypes]</text>
     </g>
 
-    <rect x="0" y="0" width="1180" height="120" fill="url(#accent)" opacity=".06">
-      <animate attributeName="y" values="-120;610" dur="8s" repeatCount="indefinite"/>
+    <rect x="34" y="300" width="1112" height="2" fill="#0284C7" opacity=".28">
+      <animate attributeName="opacity" values=".08;.42;.08" dur="3s" repeatCount="indefinite"/>
     </rect>
   </g>
 </svg>

@@ -1,105 +1,84 @@
-![Karan Badlani profile hero - dark](./assets/profile-hero-dark.svg#gh-dark-mode-only)
-![Karan Badlani profile hero - light](./assets/profile-hero-light.svg#gh-light-mode-only)
-
-<p align="center">
-  <img src="./assets/profile-avatar.png" width="118" alt="Karan Badlani profile picture" />
-</p>
+![Karan Badlani terminal hero - dark](./assets/profile-hero-dark.svg#gh-dark-mode-only)
+![Karan Badlani terminal hero - light](./assets/profile-hero-light.svg#gh-light-mode-only)
 
 <p align="center">
   <a href="https://linkedin.com/in/karan-badlani">
-    <img src="https://img.shields.io/badge/LinkedIn-Karan%20Badlani-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
+    <img src="https://img.shields.io/badge/LINKEDIN-KARAN%20BADLANI-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
   </a>
   <a href="https://github.com/Johnny001-DS">
-    <img src="https://img.shields.io/badge/GitHub-Johnny001--DS-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
+    <img src="https://img.shields.io/badge/GITHUB-JOHNNY001--DS-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
   </a>
   <a href="mailto:karanbadlani001@gmail.com">
-    <img src="https://img.shields.io/badge/Email-karanbadlani001%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
+    <img src="https://img.shields.io/badge/EMAIL-KARANBADLANI001%40GMAIL.COM-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
   </a>
 </p>
-
-## About
-
-I am Karan Badlani, a data scientist and machine-learning builder focused on turning messy real-world data into useful decision systems. My work sits at the intersection of applied ML, retrieval-augmented generation, healthcare analytics, financial forecasting, and cloud-native AI applications.
 
 ```python
 class KaranBadlani:
-    role = "Data Scientist | ML Engineer | GenAI Builder"
+    title = "Data Scientist | ML Engineer | GenAI Builder"
     location = "United States"
 
-    current_focus = [
-        "production-grade RAG systems",
-        "healthcare NLP and recommendation workflows",
-        "financial forecasting and risk signals",
-        "LLM evaluation, retrieval quality, and cloud ML architecture",
+    shipping_now = [
+        "RAG systems with citations, vector search, and evaluation",
+        "healthcare NLP and patient recommendation workflows",
+        "financial forecasting and macro-risk signal models",
+        "cloud-native ML apps with FastAPI, Streamlit, AWS, and Docker",
     ]
 
-    toolchain = {
-        "languages": ["Python", "R", "SQL"],
+    stack = {
+        "core": ["Python", "R", "SQL"],
         "ml": ["scikit-learn", "PyTorch", "TensorFlow", "UMAP", "KMeans"],
-        "genai": ["RAG", "LangChain", "OpenAI", "Amazon Bedrock", "Qdrant", "FAISS"],
-        "cloud": ["AWS", "GCP", "Docker", "FastAPI", "Streamlit"],
+        "genai": ["LangChain", "OpenAI", "Amazon Bedrock", "Qdrant", "FAISS"],
+        "apps": ["FastAPI", "Streamlit", "Docker", "AWS", "GCP"],
     }
 ```
 
-## Featured Work
+<code>~/selected_work</code>
 
-| Project | Direction | What it demonstrates |
+| System | Direction | Signal |
 | --- | --- | --- |
-| [Healthcare RAG Bot](https://github.com/Johnny001-DS/Healthcare-RAG-Bot) | Healthcare GenAI | Bedrock-powered insurance document assistant with FAISS, S3, citations, and admin/user Streamlit apps. |
-| [ProductionGradeRAGPythonApp](https://github.com/Johnny001-DS/ProductionGradeRAGPythonApp) | Production RAG | FastAPI, Inngest, Qdrant, OpenAI embeddings, Streamlit, and RAGAS evaluation in one RAG workflow. |
-| [HealthCare Recommendation System](https://github.com/Johnny001-DS/HealthCare-Recommendation-System) | Healthcare ML | Patient archetype discovery with preprocessing, bias handling, UMAP, KMeans, stability checks, and explainable assignment. |
-| Yield Curve Forecasting | Financial ML | Time-series forecasting and macro-risk signal modeling for economic downturn analysis. |
-| Protein Function Prediction | Biotech ML | Deep-learning workflow for biological sequence/function modeling with TensorFlow. |
+| [Healthcare RAG Bot](https://github.com/Johnny001-DS/Healthcare-RAG-Bot) | Healthcare GenAI | Bedrock, FAISS, S3, citations, admin/user Streamlit apps |
+| [ProductionGradeRAGPythonApp](https://github.com/Johnny001-DS/ProductionGradeRAGPythonApp) | Production RAG | FastAPI, Inngest, Qdrant, OpenAI embeddings, RAGAS evaluation |
+| [HealthCare Recommendation System](https://github.com/Johnny001-DS/HealthCare-Recommendation-System) | Healthcare ML | UMAP, KMeans, bias handling, patient archetypes, stability checks |
+| Yield Curve Forecasting | Financial ML | Time-series modeling for economic downturn and risk signals |
+| Protein Function Prediction | Biotech ML | Deep learning workflow for biological sequence/function modeling |
 
-## Direction
-
-I am especially interested in building AI systems that are measurable, explainable, and useful outside a notebook:
-
-- Retrieval pipelines with source grounding, evaluation, and human-readable traceability.
-- Healthcare analytics that turn high-dimensional patient data into interpretable segments.
-- Forecasting systems for financial risk, market signals, and decision support.
-- Cloud-native ML applications with clean interfaces, repeatable pipelines, and sensible monitoring.
-- GenAI tools that combine strong UX with practical engineering: FastAPI, Streamlit, vector databases, orchestration, and evaluation.
-
-## Stack
-
-<p align="left">
-  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
-  <img src="https://img.shields.io/badge/R-276DC3?style=for-the-badge&logo=r&logoColor=white" alt="R" />
-  <img src="https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" alt="SQL" />
-  <img src="https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikitlearn&logoColor=white" alt="scikit-learn" />
-  <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white" alt="PyTorch" />
-  <img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white" alt="TensorFlow" />
-  <img src="https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge" alt="LangChain" />
-  <img src="https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white" alt="OpenAI" />
-  <img src="https://img.shields.io/badge/Amazon%20Bedrock-232F3E?style=for-the-badge&logo=amazonaws&logoColor=white" alt="Amazon Bedrock" />
-  <img src="https://img.shields.io/badge/Qdrant-DC244C?style=for-the-badge" alt="Qdrant" />
-  <img src="https://img.shields.io/badge/FAISS-0467DF?style=for-the-badge" alt="FAISS" />
-  <img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white" alt="FastAPI" />
-  <img src="https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white" alt="Streamlit" />
-  <img src="https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazonaws&logoColor=white" alt="AWS" />
-  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker" />
-</p>
-
-## Current Build Mode
+<code>~/build_direction</code>
 
 ```bash
-$ kb.focus --now
-> sharpening RAG quality, healthcare ML explainability, and applied forecasting systems
-
-$ kb.values
-> clean data contracts
-> grounded answers
-> interpretable models
-> production-minded interfaces
+$ kb --focus
+RAG quality        -> retrieval, citations, faithfulness, context relevance
+Healthcare ML      -> interpretable patient profiles and recommendation logic
+Forecasting        -> macro risk, yield curve movement, signal extraction
+Production AI      -> clean APIs, useful UIs, observability, deployment paths
 ```
 
-## GitHub Signal
+<code>~/toolbelt</code>
 
 <p align="left">
-  <img src="https://github-readme-stats.vercel.app/api?username=Johnny001-DS&show_icons=true&theme=blue-green&hide_border=true" alt="Karan Badlani GitHub stats" />
+  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python" />
+  <img src="https://img.shields.io/badge/R-276DC3?style=flat-square&logo=r&logoColor=white" alt="R" />
+  <img src="https://img.shields.io/badge/SQL-4479A1?style=flat-square&logo=mysql&logoColor=white" alt="SQL" />
+  <img src="https://img.shields.io/badge/scikit--learn-F7931E?style=flat-square&logo=scikitlearn&logoColor=white" alt="scikit-learn" />
+  <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white" alt="PyTorch" />
+  <img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=flat-square&logo=tensorflow&logoColor=white" alt="TensorFlow" />
+  <img src="https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square" alt="LangChain" />
+  <img src="https://img.shields.io/badge/OpenAI-412991?style=flat-square&logo=openai&logoColor=white" alt="OpenAI" />
+  <img src="https://img.shields.io/badge/Bedrock-232F3E?style=flat-square&logo=amazonaws&logoColor=white" alt="Amazon Bedrock" />
+  <img src="https://img.shields.io/badge/Qdrant-DC244C?style=flat-square" alt="Qdrant" />
+  <img src="https://img.shields.io/badge/FAISS-0467DF?style=flat-square" alt="FAISS" />
+  <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white" alt="FastAPI" />
+  <img src="https://img.shields.io/badge/Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white" alt="Streamlit" />
+  <img src="https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazonaws&logoColor=white" alt="AWS" />
+  <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" alt="Docker" />
+</p>
+
+<code>~/github_signal</code>
+
+<p align="left">
+  <img src="https://github-readme-stats.vercel.app/api?username=Johnny001-DS&show_icons=true&theme=tokyonight&hide_border=true" alt="Karan Badlani GitHub stats" />
   <br />
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Johnny001-DS&theme=react-dark-high-contrast&hide_border=true&area=true" alt="Karan Badlani GitHub activity graph" />
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Johnny001-DS&theme=react-dark&hide_border=true&area=true" alt="Karan Badlani GitHub activity graph" />
   <br />
-  <img src="https://komarev.com/ghpvc/?username=Johnny001-DS&label=Profile%20views&color=0e75b6&style=flat" alt="Profile views" />
+  <img src="https://komarev.com/ghpvc/?username=Johnny001-DS&label=profile%20views&color=22d3ee&style=flat" alt="Profile views" />
 </p>
